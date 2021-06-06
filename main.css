@@ -1,0 +1,52 @@
+#catalog {
+    display: flex;
+}
+
+.cart {
+    width: 300px;
+    height: 100px;
+    background: gray;
+    margin: 10px;
+    padding-top: 35px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.card {
+    width: 300px;
+    height: 100px;
+    background: rebeccapurple;
+    margin: 10px;
+    padding-top: 35px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#popup {
+    width: 500px;
+    height: 350px;
+    background-color: #ccc;
+    border: 1px solid #999;
+    border-radius: 6px;
+    position: fixed;
+    top: 200px;
+    left: calc(50% - 70px);
+    display: none;
+    padding: 15px;
+}
+
+#comment_text {
+    width: 300px;
+    height: 150px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.popup_inner {
+    display: none;
+}
